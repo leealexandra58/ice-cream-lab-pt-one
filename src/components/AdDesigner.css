@@ -1,0 +1,49 @@
+.ad-container {
+    width: 200px;
+    height: 120px;
+    border: #222 solid 3px;
+    text-align: center;
+    box-shadow: 0px 0px 7px;
+}
+
+h1 {
+    font-family: 'Caveat', cursive;
+}
+
+.flavors {
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+}
+
+p {
+    font-weight: bold;
+}
+
+button {
+    background-color: #0e3c7e;
+    color: white;
+    border-radius: 5px;
+    padding: 6px;
+    border: none;
+    font-size: 15px;
+    margin: 5px;
+}
+
+button:active {
+    background-color: #1e60a9;
+}
+
+button:disabled,
+button[disabled] {
+    background-color: gray;
+}
+
+.ad-container-dark-theme {
+    width: 200px;
+    height: 120px;
+    background-color: #222;
+    color: #fff;
+    border: white solid 3px;
+    text-align: center;
+    box-shadow: 0px 0px 7px rgb(82, 81, 81);
+}
